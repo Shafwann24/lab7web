@@ -1,4 +1,4 @@
-90<h1>PHP DASAR</h1>
+<h1>PHP DASAR</h1>
 <br> <hr>
 
 <h2>1. Buat file baru dengan nama php_dasar.php pada directory tersebut. Kemudian buat kode seperti berikut.</h2>
