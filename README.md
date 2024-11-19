@@ -1,4 +1,4 @@
-<h1>PHP DASAR</h1>
+90<h1>PHP DASAR</h1>
 <br> <hr>
 
 <h2>1. Buat file baru dengan nama php_dasar.php pada directory tersebut. Kemudian buat kode seperti berikut.</h2>
@@ -87,24 +87,13 @@ Output: "Selamat Datang John"
 
 <h2>Operator</h2>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-          <meta charset="UTF-8">
-          <title>PHP Dasar</title>
-        </head>
-        <body>
-          <h2>Form Input</h2>
-          <form method="post">
-          <label>Nama: </label>
-          <input type="text" name="nama">
-          <input type="submit" value="Kirim">
-        </form>
         <?php
-        echo 'Selamat Datang ' . $_POST['nama'];
+        $gaji = 1000000;
+        $pajak = 0.1;
+        $thp = $gaji - ($gaji*$pajak);
+        echo "Gaji sebelum pajak = Rp. $gaji <br>";
+        echo "Gaji yang dibawa pulang = Rp. $thp";
         ?>
-        </body>
-        </html>
 
 ![image](https://github.com/user-attachments/assets/be559cfa-2fa5-475c-a165-6a2e8f9e6806)
 
